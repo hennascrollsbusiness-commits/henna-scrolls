@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Book an Appointment | Henna Scrolls</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#fffaf6;--rose:#b86678;--deep:#472b30;--muted:#86666a;--line:#ead2d0}*{box-sizing:border-box}body{margin:0;background:linear-gradient(135deg,#fffaf6,#fceceb);color:var(--deep);font-family:'DM Sans',sans-serif}.wrap{max-width:650px;margin:40px auto;padding:20px}.card{background:#fff;border:1px solid var(--line);border-radius:24px;padding:34px;box-shadow:0 18px 50px #67373c12}h1{font:600 3rem 'Cormorant Garamond',serif;text-align:center;margin:0 0 10px}p{text-align:center;color:var(--muted);line-height:1.6}.field{margin:18px 0}label{display:block;font-weight:700;font-size:.9rem;margin-bottom:7px}input,textarea,select{width:100%;padding:13px 14px;border:1px solid var(--line);border-radius:12px;font:inherit;color:var(--deep);background:#fffafc}textarea{min-height:120px;resize:vertical}.btn{display:block;width:100%;border:0;border-radius:999px;padding:15px;background:var(--rose);color:white;font-weight:700;cursor:pointer;font-size:1rem;margin-top:22px}.back{display:block;text-align:center;margin-top:22px;color:var(--rose);font-weight:700}.small{font-size:.8rem;margin-top:18px}
+</style></head>
+<body><main class="wrap"><section class="card"><h1>Book an Appointment</h1><p>Tell us your preferred date, time and henna requirements. We’ll get back to you at the earliest.</p>
+<form name="henna-appointment" method="POST" data-netlify="true" netlify-honeypot="bot-field"><input type="hidden" name="form-name" value="henna-appointment"><p hidden><label>Don’t fill this out: <input name="bot-field"></label></p>
+<div class="field"><label for="name">Your name</label><input id="name" name="name" required placeholder="Enter your name"></div>
+<div class="field"><label for="email">Your email</label><input id="email" type="email" name="email" required placeholder="Enter your email"></div>
+<div class="field"><label for="date">Preferred date</label><input id="date" type="date" name="preferred-date" required></div>
+<div class="field"><label for="time">Preferred time</label><input id="time" type="time" name="preferred-time" required></div>
+<div class="field"><label for="service">Henna requirement</label><select id="service" name="service" required><option value="">Select an option</option><option>Minimal henna</option><option>Arabic henna</option><option>Bridal henna</option><option>Other / Custom design</option></select></div>
+<div class="field"><label for="details">Additional details</label><textarea id="details" name="details" placeholder="Tell us about your design, event or requirements"></textarea></div>
+<button class="btn" type="submit">Send Appointment Request ♡</button></form>
+<a class="back" href="https://www.instagram.com/henna.scrolls_/" target="_blank" rel="noopener">Prefer Instagram? @henna.scrolls_ ↗</a><p class="small">Appointment requests are collected through Netlify Forms. Enable email notifications in your Netlify dashboard for hennascrollsbusiness@gmail.com.</p></section></main></body></html>
